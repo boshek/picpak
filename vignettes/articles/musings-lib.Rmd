@@ -1,0 +1,23 @@
+---
+title: "Musings on the state of libminer"
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(picpak)
+library(ggplot2)
+```
+
+```{r}
+lib <- lib_summary()
+
+ggplot(lib, aes(x = n_packages, y = Library)) +
+  geom_col() +
+  theme_minimal()
+```
