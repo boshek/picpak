@@ -3,7 +3,8 @@ pkgdown: 2.1.1
 pkgdown_sha: ~
 articles:
   lib-sitrep: lib-sitrep.html
-last_built: 2024-11-02T15:16Z
+  articles/musings-lib: musings-lib.html
+last_built: 2024-11-03T02:43Z
 urls:
   reference: https://boshek.github.io/picpak/reference
   article: https://boshek.github.io/picpak/articles
